@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafická stránka her</title>
+    <!-- Ikony -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Barlow - odstavce atd. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&display=swap" rel="stylesheet">
+    <!-- Josefin Sans - nadpisy -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <!-- Projekt Pages -->
+    <link rel="Ůvod" href="./projektpages/chcivedetvic.html">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            /* margin 0, padding 0 = CCS reset */
+        }
+        #navbar {
+            display: flex;
+            background-color: #D8D2C2;
+            justify-content: space-between;
+            height: 50px;
+        }
+
+        #navbar ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            color: white;
+        }
+
+        #navbar ul li a {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            padding: 12px;
+            text-decoration: none;
+            color: #4A4947;
+            margin: 0px 4px;
+        }
+
+        #navbar ul li a:hover {
+            text-decoration: underline;
+            border-radius: 10px 10px;
+            border: solid;
+            border-color: #4A4947;
+        }
+
+        #navbar .logo {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            align-items: center;
+            font-weight: bold;
+            font-size: larger;
+            margin: 0px 16px;
+            padding: 15px;
+            color: #4A4947;
+        }
+
+        #showcase {
+            background: #333 url("../obrazky/rdr2_camp.jpg") no-repeat center center/cover;
+            height: 100vh;
+            color: #FAF7F0;
+        }
+
+        .showcase-content {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            justify-content: flex-start;
+            height: 100%;
+            padding: 0 25rem;
+            padding: 250px;
+                }
+        .l-heading {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 4rem;
+            margin-bottom: 0.75rem;
+            line-height: 1;
+                }
+        
+        .lead{
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn{
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            display: inline-block;
+            color: #4A4947;
+            background-color: #D8D2C2;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 15px;
+            text-decoration: none;
+        }
+
+        .btn:hover{
+            border-color: #4A4947;
+            border: solid;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-house"></i> Grafická stránka her 
+        </div>
+            <ul>
+                <li><a href=#home>Home</a></li>
+                <li><a href=#form>Form</a></li>
+                <li><a href=#contact>Contact</a></li>
+            </ul>
+    </nav>
+    <div id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">Grafická stránka her</h1>
+            <p class="lead">Usaďte se a pojďte si počíst o tom, jak se vytváří grafická stránka počítačových her.</p>
+            <a href="./projektpages/chcivedetvic.html" class="btn">Chci vědět víc</a>
+        </div>
+    </div>
+        <!-- photo by <a href="https://theindianwire.com/wp-content/uploads/2019/12/RedDeadRedemption2-3.jpg">Unsplash</a>
+   --> 
+</body>
+</html>
