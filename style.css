@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* margin 0, padding 0 = CCS reset */
+}
+/* Section 1 */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    display: flex;
+    overflow: hidden;
+    }
+
+.py-1 {
+    padding: 1.5rem 0;
+    }
+
+.text-center {
+    text-align: center;
+    }
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75;
+    line-height: 1.1;
+    }
+
+#what .items {
+    display: flex;
+    padding: 1rem;
+    }
+
+#what .item {
+    text-align: center;
+    padding: 1rem;
+    justify-content: space-between;
+    }
+
+#what .items .item i {
+    background-color: #FAF7F0;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    align-self: center;
+    line-height: 25px;
+    }
+/* Section 1 */
+
+#navbar {
+    display: flex;
+    background-color: #D8D2C2;
+    justify-content: space-between;
+    height: 50px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    color: white;
+}
+
+#navbar ul li a {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    padding: 12px;
+    text-decoration: none;
+    color: #4A4947;
+    margin: 0px 4px;
+}
+
+#navbar ul li a:hover {
+    text-decoration: underline;
+    border-radius: 10px 10px;
+    border: solid;
+    border-color: #4A4947;
+}
+
+#navbar .logo {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+    margin: 0px 16px;
+    padding: 15px;
+    color: #4A4947;
+}
+
+#showcase {
+    background: #333 url("./img/rdr2_camp.jpg") no-repeat center center/cover;
+    height: 100vh;
+    color: #FAF7F0;
+}
+
+.showcase-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 0 25rem;
+    padding: 250px;
+        }
+.l-heading {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1;
+        }
+
+.lead{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    color: #4A4947;
+    background-color: #D8D2C2;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    border-color: #4A4947;
+    border: solid;
+}
+
+
