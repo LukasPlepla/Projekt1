@@ -5,11 +5,25 @@
     /* margin 0, padding 0 = CCS reset */
 }
 /* Section 1 */
+.l-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1;
+    padding: 50px 0px 0px;
+    color: #4A4947;
+}
 .container {
     max-width: 1100px;
     margin: auto;
     padding: 0 2rem;
     overflow: hidden;
+    background-color: #D8D2C2;
     }
 
 .py-1 {
@@ -24,7 +38,15 @@
     font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
-    }
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1;
+    padding: 50px;
+    color: #4A4947;
+        }
 
 #what .items {
     display: flex;
@@ -35,7 +57,8 @@
 #what .item {
     text-align: center;
     padding: 1rem;
-    flex: 1
+    flex: 1;
+    color: #4A4947;
     }
 
 #what .items .item i {
@@ -145,5 +168,64 @@
     border: solid;
 }
 /* Showcase */
+
+/* Section 2 */
+
+.bg-dark {
+    background-color: #D8D2C2;
+}
+#nastroje .items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#nastroje .item {
+    position: relative;
+    background-color: #D8D2C2;
+    padding: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+#nastroje .item:hover .overlay {
+    width: 100%;
+    background-color:#4A4947;
+    border-radius: 5px;
+}
+
+
+#nastroje .image {
+    width: 400px;
+    height: 200px;
+    border: #4A4947 solid;
+    border-radius: 5px;
+}
+
+#nastroje .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 75%;
+}
+
+#nastroje .text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Section 2 */
 
 
