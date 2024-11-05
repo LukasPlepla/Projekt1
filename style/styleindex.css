@@ -131,7 +131,8 @@
     text-align: center;
     justify-content: flex-start;
     height: 100%;
-    padding: 250px;
+    padding: 2rem;
+    justify-content: center;
         }
 .l-heading {
     font-family: 'Josefin Sans';
@@ -228,4 +229,14 @@
 
 /* Section 2 */
 
+/* Footer */
+#footer {
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    color: #4A4947;
+}
 
+#footer .text-center span{
+    margin: 0.5rem;
+}
