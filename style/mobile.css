@@ -59,3 +59,22 @@
         padding: 0 1rem;
     }
 }
+
+#navbar {
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar #logo {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#showcase .showcase-content {
+    top: 100px;
+}
+#showcase {
+flex-direction: column;
+align-items: center;
+}
+}
