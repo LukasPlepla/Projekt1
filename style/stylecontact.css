@@ -44,6 +44,29 @@ body{
     color: #666;
     border-radius: 50px;
 }
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+    }
+.contact-inputs:focus{
+    border: 2px solid #D8D2C2;
+}
+.contact-inputs::placeholder{
+    color: #4A4947;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: #D8D2C2;
+    cursor: pointer;
+}
 /* Nav Bar */
 #navbar {
     display: flex;
@@ -88,6 +111,7 @@ body{
     margin: 0px 16px;
     padding: 15px;
     color: #4A4947;
+    
 }
 /* Nav bar */
 
