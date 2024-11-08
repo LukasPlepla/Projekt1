@@ -67,6 +67,12 @@ body{
     background: #D8D2C2;
     cursor: pointer;
 }
+.contact-left button img{
+    height: 15px;
+}
+.contact-right img{
+    width: 500px;
+}
 /* Nav Bar */
 #navbar {
     display: flex;
@@ -111,10 +117,10 @@ body{
     margin: 0px 16px;
     padding: 15px;
     color: #4A4947;
-    
 }
-/* Nav bar */
 
 #navbar .home_button {
     margin: 3px;
 }
+/* Nav bar */
+
